@@ -1,0 +1,14 @@
+C:\Users\nicho\source\repos\InsertionShellSort\bin\Debug\net8.0\InsertionShellSort.exe
+C:\Users\nicho\source\repos\InsertionShellSort\bin\Debug\net8.0\InsertionShellSort.deps.json
+C:\Users\nicho\source\repos\InsertionShellSort\bin\Debug\net8.0\InsertionShellSort.runtimeconfig.json
+C:\Users\nicho\source\repos\InsertionShellSort\bin\Debug\net8.0\InsertionShellSort.dll
+C:\Users\nicho\source\repos\InsertionShellSort\bin\Debug\net8.0\InsertionShellSort.pdb
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.AssemblyInfoInputs.cache
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.AssemblyInfo.cs
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.csproj.CoreCompileInputs.cache
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.dll
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\refint\InsertionShellSort.dll
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.pdb
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\InsertionShellSort.genruntimeconfig.cache
+C:\Users\nicho\source\repos\InsertionShellSort\obj\Debug\net8.0\ref\InsertionShellSort.dll
