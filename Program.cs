@@ -15,13 +15,20 @@ namespace InsertionShellSort
             for (int i = 0; i < arr.Length; i++)
             {
                 arr[i] = randNum.Next(0, 10000);
-                Console.Write(arr[i] + " ");
+                //Console.Write(arr[i] + " ");
+            }
+            
+            int[] arr2 = arr.Clone() as int[];
+            if (arr2 == null)
+            {
+                throw new InvalidOperationException("Cloning the array failed.");
             }
 
             Console.WriteLine();
 
             Console.WriteLine("--------------------");
             Console.WriteLine("\n\nInsertion Sort");
+          
             stopwatch.Start();
             InsertionSort(arr);
             stopwatch.Stop();
@@ -30,18 +37,24 @@ namespace InsertionShellSort
 
             Console.WriteLine("\n\nShell Sort");
             stopwatch.Restart();
-            ShellSort(arr);
+            ShellSort(arr2);
             stopwatch.Stop();
             Console.WriteLine("Time elapsed on Shell Sort: {0}", stopwatch.ElapsedMilliseconds);
 
             Console.WriteLine("--------------------");
             Console.WriteLine();
 
-            Console.WriteLine("Array after sorting: ");
+            /*Console.WriteLine("Array after Insertion sorting: ");
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.Write(arr[i] + " ");
+               Console.Write(arr[i] + " ");
             }
+
+            Console.WriteLine("Array after Shell sorting: ");
+            for (int i = 0; i < arr2.Length; i++)
+            {
+                Console.Write(arr2[i] + " ");
+            }*/
 
         }
 
@@ -50,7 +63,7 @@ namespace InsertionShellSort
             for (int i = 1; i < arr.Length; i++)
             {
                 int j = i;
-                while (j > 0 && arr[j] < arr[j - 1])
+                while (j > 0 && arr[j] > arr[j - 1])
                 {
                     int temp = arr[j];
                     arr[j] = arr[j - 1];
@@ -69,7 +82,7 @@ namespace InsertionShellSort
                 {
                     int temp = arr[i];
                     int j;
-                    for (j = i; j >= gap && arr[j - gap] > temp; j -= gap)
+                    for (j = i; j >= gap && arr[j - gap] < temp; j -= gap)
                     {
                         arr[j] = arr[j - gap];
                     }
